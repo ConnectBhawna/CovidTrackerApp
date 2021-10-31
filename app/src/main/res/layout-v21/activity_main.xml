@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        android:background="#2090E8"
+        tools:ignore="UselessParent">
+
+
+        <!-- all viruses images -->
+
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_height="211dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-40dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginBottom="-24dp"
+            android:contentDescription="@string/virus1"
+            android:src="@drawable/ic_baseline_coronavirus_24" />
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-40dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginBottom="148dp"
+            android:contentDescription="@string/virus1"
+            android:src="@drawable/ic_baseline_coronavirus_24" />
+
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="114dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="286dp"
+            android:layout_marginLeft="286dp"
+            android:layout_marginEnd="-27dp"
+            android:layout_marginRight="-27dp"
+            android:contentDescription="@string/virus1"
+            android:src="@drawable/ic_baseline_coronavirus_24" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="246dp"
+            android:layout_marginLeft="246dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="95dp"
+            android:contentDescription="@string/virus1"
+            android:src="@drawable/ic_baseline_coronavirus_24" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="297dp"
+            android:layout_marginLeft="297dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginRight="94dp"
+            android:contentDescription="@string/virus1"
+            android:src="@drawable/ic_baseline_coronavirus_24" />
+    <!-- here i created the textfield and text area for the country -->
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:orientation="vertical"
+           android:layout_marginTop="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="20dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/text_size"
+               android:text="@string/app_name"
+               android:textColor="#011317"
+               android:fontFamily="@string/regular"/>
+
+           <!-- now for country name -->
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/title_size3"
+               android:text="@string/india"
+               android:textColor="#011013"
+               android:fontFamily="@string/bold"
+               android:drawableEnd="@drawable/ic_dropdown"
+               android:drawablePadding="2dp"
+               app:drawableRightCompat="@drawable/ic_dropdown"
+               android:drawableRight="@drawable/ic_dropdown"
+               tools:ignore="UseCompatTextViewDrawableXml" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/text_size0"
+               android:text="@string/updated_at_november_03_2021"
+               android:textColor="#011419"
+               android:layout_marginTop="5dp"
+               android:fontFamily="@string/bold"
+               />
+
+
+       </LinearLayout>
+
+
+
+
+   <!-- here work for pie chart -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp">
+
+            <!-- for basic information of pie chart -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="centre"
+                android:orientation="horizontal">
+
+                <!-- this linear layout for representation of data -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_gravity="centre_vertical"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="centre"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@color/yellow"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/confirm"
+                            android:textColor="#E9EFF1"
+                            android:fontFamily="@string/regular"
+                            android:layout_marginLeft="5dp" />
+
+
+                    </LinearLayout>
+               <!-- 2nd data -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="centre"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@color/blue"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/active"
+                            android:textColor="#E7EEEF"
+                            android:fontFamily="@string/regular"
+                            android:layout_marginLeft="5dp" />
+
+
+                    </LinearLayout>
+                    <!-- 3rd data -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="centre"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="#A58277"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/recovered"
+                            android:textColor="#E7EFF1"
+                            android:fontFamily="@string/regular"
+                            android:layout_marginLeft="5dp" />
+
+
+                    </LinearLayout>
+
+                    <!-- 4th data -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="centre"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@color/pink"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/death"
+                            android:textColor="#D8E4E6"
+                            android:fontFamily="@string/regular"
+                            android:layout_marginLeft="5dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!-- here is the pie chart -->
+                <org.eazegraph.lib.charts.PieChart
+
+                    android:id="@+id/piechart"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="8dp"
+                    app:egInnerPaddingColor="#2790C0"
+                    app:egLegendTextSize="0sp"
+                    app:egUsePieRotation="true"
+                    app:egLegendHeight="0dp"
+                    app:egValueTextSize="0sp"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:columnCount="2">
+           <com.google.android.material.card.MaterialCardView
+               android:layout_height="wrap_content"
+               android:layout_width="@dimen/card_width"
+               android:layout_columnWeight="1"
+               app:strokeColor="@color/color_primary"
+       </GridLayout>
+
+
+</LinearLayout>

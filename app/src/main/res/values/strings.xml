@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Covid Tracker App</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/rubikbold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/rubikregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/rubiklight</string>
+    <string name="covid">Covid</string>
+    <string name="tracker">Tracker</string>
+    <string name="may_i_help_you">May i help you</string>
+    <string name="india">India</string>
+    <string name="virus_shape">Virus Shape</string>
+    <string name="india">India</string>
+    <string name="updated_at_november_01_2021">Updated at November 01, 2021</string>
+    <string name="virus1">virus1</string>
+    <string name="india">India</string>
+    <string name="updated_at_november_03_2021">Updated at November 03,2021</string>
+    <string name="active">Active</string>
+    <string name="confirm">Confirm</string>
+    <string name="recovered">Recovered</string>
+    <string name="death">Death</string>
+    <string name="black">Black</string>
+    <string name="confirm">Confirm</string>
+    <string name="_423154687">423154687</string>
+    <string name="_32">( +32)</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="test">Test</string>
+    <string name="tests">Tests</string>
+    <string name="_32p">(+32)</string>
+    <string name="_32people">( +32)</string>
+    <string name="active">Active</string>
+    <string name="tests">Tests</string>
+    <string name="death">Death</string>
+</resources>

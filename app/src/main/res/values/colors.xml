@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#7EC544</color>
+    <color name="yellow">#FBC233</color>
+    <color name="red">#F6404F</color>
+    <color name="blue">#78DBF3</color>
+    <color name="pink">#F37585</color>
+    <color name="orange">#FF7100</color>
+    <color name="blue_pie">#007afe</color>
+    <color name="red_pie">#F6404F</color>
+    <color name="green_pie">#08a045</color>
+
+</resources>
