@@ -12,4 +12,4 @@ I created this app by thinking that we do not need to google everytime to know a
 
 # Have a look at my App layout
 
-![image](/home/bhawna/Desktop/Screenshot_1635684087.png)  
+![ScreenShot](Screenshot_1635684087.png)
