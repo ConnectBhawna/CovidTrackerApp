@@ -7,6 +7,9 @@ In this project i created a android application that shows the following details
 * Number of people recovered.
 * Total number of tests done 
 
-I created this app by thinking that we do not need to open google everytime to know about covid related data about a particular country
+I created this app by thinking that we do not need to google everytime to know about covid related data about a particular country just open this app
 
 
+# Have a look at my App layout
+
+![](/home/bhawna/Desktop/Screenshot_1635684087.png)  
