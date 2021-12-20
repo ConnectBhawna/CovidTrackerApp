@@ -12,4 +12,7 @@ I created this app by thinking that we do not need to google everytime to know a
 
 # Have a look at my App layout
 
-![ScreenShot](Screenshot_1635684087.png)
+<img align="left" alt="photo" src="ss2.png" width="55%" height="70%" style="margin:0 50px;"> 
+
+<img align="leftt" alt="photo" src="ss1.png" width="55%" height="70%" style="margin:0 50px;"> 
+
